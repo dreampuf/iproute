@@ -2,6 +2,15 @@
 
 A traceroute like tool with IP location data(from [GeoLite2IP](http://dev.maxmind.com/zh-hans/geoip/geoip2/geolite2-%E5%BC%80%E6%BA%90%E6%95%B0%E6%8D%AE%E5%BA%93/)) and visualization(from [Gaode Map](http://lbs.amap.com/api/static-map-api/guide-2/)).
 
+# Install
+
+    go get github.com/oschwald/geoip2-golang
+    // download yourself version of GeoLite2 database
+    go get github.com/aeden/traceroute
+    go run src/iproute/cmd/iproute.go DOMAIN
+
+# Example
+
 ```bash
 $ sudo -E go run src/iproute/cmd/iproute.go bing.com
 traceroute to bing.com (204.79.197.200), 65 hops max, 52 byte packets
@@ -96,3 +105,7 @@ Visualize URL: http://restapi.amap.com/v3/staticmap?zoom=1&size=1024*500&markers
 ```
 
 ![Visualize Example2](visualize_example2.png)
+
+# Lincense
+
+Most code are come from [aeden/traceroute]()&[oschwald/geoip2-golang](), please follow these two libraries lincenses.
