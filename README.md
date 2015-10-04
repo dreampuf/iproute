@@ -108,4 +108,4 @@ Visualize URL: http://restapi.amap.com/v3/staticmap?zoom=1&size=1024*500&markers
 
 # Lincense
 
-Most code are come from [aeden/traceroute](/aeden/traceroute)&[oschwald/geoip2-golang](/oschwald/geoip2-golang), please follow these two libraries lincenses.
+Most code are come from [aeden/traceroute](https://github.com/aeden/traceroute)&[oschwald/geoip2-golang](https://github.com/oschwald/geoip2-golang), please follow these two libraries lincenses.
